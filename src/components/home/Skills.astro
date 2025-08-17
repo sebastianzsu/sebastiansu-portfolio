@@ -1,0 +1,27 @@
+---
+import { ISkills } from "@types";
+
+const { title, details } = Astro.props as ISkills;
+---
+
+<section
+  class="flex items-start justify-between flex-col sm:flex-row dark:text-light"
+>
+  <h2 class="w-[15rem] mt-16">{title}</h2>
+  <div class="w-full">
+    {
+      details.map((category, index) => (
+        <div class={index === 0 ? "my-16" : "my-8"}>
+          <h3 class="text-xl font-semibold mb-4">{category.category}</h3>
+          <div class="flex flex-wrap gap-2">
+            {category.items.map((skill) => (
+              <span class="bg-blue text-white px-3 py-1 rounded-full text-sm font-medium">
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

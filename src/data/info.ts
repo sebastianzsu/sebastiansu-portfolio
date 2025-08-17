@@ -1,97 +1,123 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  name: "Sebastian Su",
+  jobDescription: "Software Engineer",
+  about: `I'm a full-stack engineer with expertise in distributed systems and a passion for AI-driven, data-powered solutions. I love exploring system design, business logic, and data flows to uncover new ways technology can optimize performance and efficiency at scale.
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Microsoft",
+      location: "Mountain View, CA",
+      startDate: "Mar 2022",
+      endDate: "Current",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "- Built APIs and infrastructure for Copilot and Teams, working on large-scale systems requiring high reliability",
+        "- Raised critical API reliability to 99.97% through system optimization and monitoring improvements",
+        "- Led vendor teams to fully automate testing pipelines, boosting code quality and developer velocity",
+        "- Carried global on-call responsibilities, solving high-priority incidents for Fortune 500 customers across eight regions",
+        "- Designed systems for scale, resilience, and user trust in productivity applications",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
+      name: "Michaels",
+      location: "San Jose, CA",
       startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      endDate: "Mar 2022",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "- Led transformation from legacy e-commerce system to modern, scalable platform",
+        "- Built backend authentication flows, in-app messaging, and secure user management with JWT and Spring Boot",
+        "- Created interactive dashboards and management tools using React and Redux",
+        "- Delivered end-to-end ownership across the full stack, from API design to user-facing features",
+      ],
+    },
+
+    {
+      name: "Qcompass Voyage Limited (Qeeq.com)",
+      location: "Hong Kong",
+      startDate: "Jan 2018",
+      endDate: "Aug 2019",
+      description: [
+        "- Built analytics dashboards used daily by 200+ employees across product, marketing, and finance teams",
+        "- Optimized large-scale data pipelines to handle millions of data points efficiently",
+        "- Enabled smarter pricing and operational strategies through data insights",
+        "- Operated as both full-stack engineer and data analyst in fast-growing car rental startup (160+ countries)",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "University of California, Berkeley",
+      location: "Berkeley, CA",
+      startDate: "Fall 2015",
+      endDate: "Fall 2019",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "B.S. Computer Science",
       ],
-    },
-    {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
     },
   ],
 
+  skills: [
+    {
+      category: "Programming",
+      items: ["Java", "Python", "JavaScript", "HTML", "CSS", "Typescript", "Kotlin", "C#"]
+    },
+    {
+      category: "Tech Frameworks",
+      items: ["Redis", "Sprint Boot", "MySQL", "MongoDB", "Kafka", "Elastic Search", "Jmeter", "React.js Redux", "Docker", "AOP", "DynamoDB", "JWT", "API Gateway", "Flink", "n8n", "Playwright"]
+    },
+    {
+      category: "Data Science skills",
+      items: ["Regression", "AB Testing", "Pandas", "Power BI", "Tableau", "Google Analytics"]
+    }
+  ],
+
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    facebook: "",
+    twitter: "",
+    github: "https://github.com/sebastianzsu",
+    email: "mailto:sebzsu1299@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sebastian-su-1750581b6/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Custom Macros for Dynamics",
       isFeatured: true,
       thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      githubUrl: "",
+      liveUrl: "",
+      description: "Created a feature that lets customers write and run custom JavaScript inside Dynamics to automate repetitive workflows. This became a key enabler for migrating enterprise clients from outdated systems to a modern SaaS platform.",
+      year: "2024",
+    },
+    {
+      title: "Agent Diagnostic Tool",
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "",
+      liveUrl: "",
+      description: "Built a self-service diagnostic system inside Dynamics 365 that empowered support agents to troubleshoot their own environment issues. By running pre-defined diagnostic rules and generating detailed reports, agents could resolve problems faster.",
+      year: "2023",
+    },
+    {
+      title: "In-App Messaging for Marketplaces",
+      isFeatured: true,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "",
+      liveUrl: "",
+      description: "Designed an in-app messaging service with text, image sharing, push notifications, and broadcast messaging capabilities. Integrated with Twilio's APIs to increase engagement and keep conversations flowing across devices.",
+      year: "2021",
+    },
+    {
+      title: "Identity & Access Management",
+      isFeatured: false,
+      thumbnail: "/assets/images/astro-portfolio.png",
+      githubUrl: "",
+      liveUrl: "",
+      description: "Developed a complete role-based access control (RBAC) system with APIs for managing users, roles, and permissions. Included detailed activity logs, multithreaded processing for scale, and email notifications for security alerts.",
+      year: "2020",
     },
   ],
 };
